@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>todo</title>
+</head>
+<body>
+    <h1>todo</h1>
+    <h2>user：{{ username }}</h2>
+    <a href="/">index</a>
+    <br>
+    <a href="/register">register</a>
+    <br>
+    <a href="/login">login</a>
+    <br>
+    <a href="/todo">todo</a>
+    <br>
+    <a href="/logout">logout</a>
+    <br>
+    <input id="id-input-todo">
+    <button id="id-button-add">add</button>
+    <div id="id-todo-list"></div>
+</body>
+<script src='/static/js?file=utils.js'></script>
+<script src='/static/js?file=todo_api.js'></script>
+<script src='/static/js?file=todo.js'></script>
+</html>
